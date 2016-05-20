@@ -4,8 +4,8 @@
 # Supported tags only, but attributes are also available
 #
 # Example of using:
-# local xmlPath=(recipe composition ingredient);
-# local ingredients=`parseXmlFile $TMP_DIR/filename "${xmlPath[@]}"`;
+# xmlPath=(recipe composition ingredient);
+# ingredients=`parseXmlFile $TMP_DIR/filename "${xmlPath[@]}"`;
 #
 
 readXmlDom () {
